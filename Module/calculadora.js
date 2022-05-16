@@ -23,3 +23,7 @@ module.exports = {
     div,
     nome
 };
+
+/* EXPLICAÇÃO GERAL
+ module.exports
+Este método disponibiliza para acesso em qualquer parte do projeto */

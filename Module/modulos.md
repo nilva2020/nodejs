@@ -1,16 +1,32 @@
- # Módulos como utiliza-los:
-
- Neste artigo será tratado a importância da organização do código
+ # MODULE
+* Nesta pasta será tratado a importância da organização do código
 através dos módulos.
+* Para tornar uma função, uma constante ou uma variável disponível em outros arquivos do projeto, precisam ser exportados usando a palavra-chave export.
+* Outro arquivo pode importá-los usando a palavra-chave import.
+Conhecido como o sistema de módulos.
 
-### OBSERVE que o  programa está grande o que fazer?
+## Foi criado duas pastas para exemplificar o meu aprendizado
+* app.JS
+* calculadora.JS
+
+
+### Quando utilizar o método module?
+Será aplicado quando o código está muito grande e também quando
+preciso aproveitar uma função pronta em um dos arquivos do projeto.
+
+
 
 * SOLUÇÔES:
-SOLUÇÃO 1 - Criar outro arquivo exemplo: calculadora.js e inserir a função
+SOLUÇÃO 1 - Criar outro arquivo exemplo: calculadora.js e inserir a função:
+
 function soma(a,b){
     return a + b
 }
-module.exports = soma
+module.exports = soma 
+
+// aqui foi implementado o export porque este metodo
+disponibiliza para acesso em qualquer parte do projeto
+
 
 SOLUÇÃO 2 - Criar um arquivo MULTIPLAS FUNÇÕES: calculadora.js
 *** insira o codigo total e no final insira o module.exports observe o exemplo abaixo.

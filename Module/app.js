@@ -1,5 +1,5 @@
 
-//criando uma variavel chamada calculadora 
+
 var calculadora = require("./calculadora");
 
 
@@ -11,6 +11,16 @@ console.log(calculadora.nome);
 
 
 
+/* EXPLICAÇÃO GERAL
+
+ var somaFuncao = require("./calculadora") 
+// obs foi usado ./nomearquivo este ponto e a barra é  para indicar que o arquivo esta no mesma pasta que o arquivo app.js
+
+// para utilizar a função que o arquivo app.js exportou tem que utilizar o  metodo require("./nomedoarquivo) que é uma importação da função, é este
+metodo e para importar a função tem que ser precedido de uma variavel.
+
+// este metodo é aplicado na pasta principal app.js
+*/
 
 
 
